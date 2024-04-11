@@ -14,7 +14,7 @@ const Products = rogerSequelize.define("sfp_products", {
     allowNull: false,
   },
   description: {
-    type: DataTypes.STRING,
+    type: DataTypes.TEXT,
     allowNull: false,
   },
   images: {
